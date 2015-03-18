@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="50" height="50" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="PathAndObjects_0" tilewidth="32" tileheight="32">
+  <image source="../map/demo.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Collision" width="50" height="50">
+  <properties>
+   <property name="collision" value="true"/>
+  </properties>
+  <data encoding="base64" compression="zlib">
+   eJzt0bEJADAIRUH3nyPZM6S1sgiI5ITr/8MVEQsAAAAeyte95/eO3NK95dU/Jrbc24M7qte9U8esjkpT9y4AAAAA5jgXqh1o
+  </data>
+ </layer>
+ <layer name="Ground" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJzt1cENwjAMQNFuCUwAnYCyARvAldIFKBMUJigshCM5khUlFLjgSv/wTrn4x63SVVXVAQAAAAAAOHcSC7ERK3F2MNMvDb1Ya0ctrg7m+mb+VhvCLo7acdCdtAmvO7pog91FFFqW2tMbHltsx1Y0Yp/01EmHxxbbYXtsS67D278zZGZMv7E5dIxvdtKoXaHV27dV2sknPLWUdhLcjNz53cH8Vq4jzPgw0r2F86eD2eMbGN9Be/+5GUfT4qUhtwN7/6UZx4nzfxgm7n8u4t16u18AAABg7l7g6kRH
+  </data>
+ </layer>
+ <layer name="Lower Environment" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzrENwCAABDH23zKQBSAZgN+AAiQaW7r+SgEAAICznlRTS+/llx09jfSl//ILAAAAAACwNgGhTwdV
+  </data>
+ </layer>
+ <layer name="Environment" width="50" height="50">
+  <data encoding="base64" compression="zlib">
+   eJztzrENg0AUBcHrvw86MMjOAUEO1MPLEdFZ+smMtPm2BgAAALz5pDFN1SOd5rSktXqk05HOdFWPdBiqBwB4+KZf9cQfbGmvngAAAIBiN/19CpU=
+  </data>
+ </layer>
+</map>
